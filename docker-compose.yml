@@ -62,7 +62,7 @@ services:
 
   # Grafana
   grafana:
-    image: grafana/grafana:9.5.9
+    image: grafana/grafana:10.1.1
     container_name: grafana
     volumes:
       - ./grafana/grafana.ini:/etc/grafana/grafana.ini
