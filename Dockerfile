@@ -1,4 +1,4 @@
-FROM golang:1.21-bullseye as base
+FROM golang:1.22-bullseye as base
 
 WORKDIR $GOPATH/src/storage-server/
 
