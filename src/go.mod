@@ -3,7 +3,7 @@ module file-storage-server
 go 1.19
 
 require (
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.12.1
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.47.0
 	go.opentelemetry.io/otel v1.22.0
 	go.opentelemetry.io/otel/metric v1.22.0
